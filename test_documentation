@@ -28,6 +28,6 @@ Preconditions: User is on the home page.
 Test Steps: 
 1. Open website https://www.ffos.unios.hr/ .
 2. Click on the search field located on the top right corner of the page.
-3. Type in "Upisi" and click on the search icon or press enter.
-Expected Result: Results containing the word "Upisi" are listed.
-Test Result: Pass, results containing the keyword "Upisi" are shown. 
+3. Type in "Upisi 2026" and click on the search icon or press enter.
+Expected Result: Results containing "Upisi 2026" are listed.
+Test Result: Pass, results containing "Upisi" and "2026" are shown. 
