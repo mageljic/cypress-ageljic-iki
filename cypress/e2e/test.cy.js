@@ -2,7 +2,7 @@ describe('Preuzimanje rasporeda sati za za studij informatologije', () => {
 
   it('student pronalazi odsjek i preuzima raspored sati', () => {
 
-      cy.viewport(1920, 1080)
+    cy.viewport(1920, 1080)
       
     cy.visit('https://www.ffos.unios.hr/')
 
@@ -13,19 +13,15 @@ describe('Preuzimanje rasporeda sati za za studij informatologije', () => {
     .should('be.visible')
     .click()
 
-  
-
     cy.contains('Raspored sati')
-      .scrollIntoView()
+    .scrollIntoView()
 
     cy.contains('Raspored sati')
     .invoke('removeAttr', 'target')
     .click()
 
     cy.contains('Raspored sati')
-      .click()
-
-     
+    .click()
 
     cy.contains('Informatologija, Nakladništvo i Informacijske tehnologije')
     .invoke('attr', 'href')
