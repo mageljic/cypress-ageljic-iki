@@ -1,5 +1,5 @@
 node_modules/
 
-cypress/screenshots/search.cy.js
+cypress/screenshots/
 
 cypress/fixtures
