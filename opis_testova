@@ -31,4 +31,4 @@ Koraci:
 2. Kliknuti na polje za pretraživanje koje se nalazi na gornjem desnom kutu stranice. 
 3. U polje upisati "Upisi 2026" i kliknuti na ikonu tražilice ili kliknuti Enter na tipkovnici. 
 Očekivani rezultat: Rezultati koji sadrže "Upisi 2026" su prikazani.
-Stvarni rezultat: PTest je prošao, rezultati koji sadrže "Upisi 2026" su prikazani. 
+Stvarni rezultat: Test je prošao, rezultati koji sadrže "Upisi 2026" su prikazani. 
