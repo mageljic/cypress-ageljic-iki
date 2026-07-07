@@ -67,6 +67,8 @@ Svaki sljedeći put dovoljno je:
 
 npx cypress open
 
+**Detaljan opis testova nalazi se u datoteci: test_documentation**
+
 
 ILI
 
