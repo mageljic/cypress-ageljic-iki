@@ -1,0 +1,34 @@
+Kratak opis stranice:
+Službena stranica Filozofskog fakulteta u Osijeku koja omogućuje studentima, nastavnom osoblju i drugim djelatnicima pristup informacijama. 
+Korišteni alati i testno okruženje
+•	Windows 11 OS
+•	preglednik Google Chrome (149.0.7827.115)
+•	rezoluciji zaslona 1920x1080
+•	korišteni alat: cypress
+
+Opseg testiranja: automatizirano testiranje navigacije kroz glavni izbornik, preuzimanje rasporeda sati te pretraživanje sadržaja pomoću tražilice.
+
+Test slučajevi
+
+Test slučaj ID: TC-001
+Opis: Kao korisnik, očekujem mogućnost preuzimanja rasporeda sati za određeni odsjek. 
+Preduvjeti: Korisnik je na naslovnoj stranici. 
+Koraci: 
+1. Otvoriti mrežnu stranicu https://www.ffos.unios.hr/ .
+2. Iz gornjeg izbornika, kliknuti na "Odsjeci i katedre".
+3. Kliknuti na "Odsjek za informacijske znanosti".
+4. Na stranici, listati dolje do "Raspored sati".
+5. Kliknuti na "Raspored sati".
+6. Na novoj otvorenoj stranici kliknuti na "Informatologija, Nakladništvo i Informacijske tehnologije" za preuzimanje rasporeda.
+Očekivani rezultat: Raspored sati je preuzet.
+Stvarni rezultat: Test je prošao, datoteka rasporeda sati je uspješno preuzeta. 
+
+Test slučaj ID: TC-002
+Opis: Kao korisnik, očekujem mogućnost pretraživanja sadržaja stranice koristeći ugrađenu tražilicu. 
+Preduvjeti: Korisnik je na naslovnoj stranici. 
+Koraci: 
+1. Otvoriti mrežnu stranicu https://www.ffos.unios.hr/ .
+2. Kliknuti na polje za pretraživanje koje se nalazi na gornjem desnom kutu stranice. 
+3. U polje upisati "Upisi 2026" i kliknuti na ikonu tražilice ili kliknuti Enter na tipkovnici. 
+Očekivani rezultat: Rezultati koji sadrže "Upisi 2026" su prikazani.
+Stvarni rezultat: PTest je prošao, rezultati koji sadrže "Upisi 2026" su prikazani. 

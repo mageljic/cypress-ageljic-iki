@@ -1,1 +1,1 @@
-// Custom Cypress commands can be added here
+// Ovdje je moguće dodati vlastite cypress naredbe
