@@ -10,7 +10,7 @@ Opseg testiranja: automatizirano testiranje navigacije kroz glavni izbornik, pre
 
 Test slučajevi
 
-Test slučaj ID: TC-001
+Test slučaj ID: TS-001
 Opis: Kao korisnik, očekujem mogućnost preuzimanja rasporeda sati za određeni odsjek. 
 Preduvjeti: Korisnik je na naslovnoj stranici. 
 Koraci: 
@@ -23,7 +23,7 @@ Koraci:
 Očekivani rezultat: Raspored sati je preuzet.
 Stvarni rezultat: Test je prošao, datoteka rasporeda sati je uspješno preuzeta. 
 
-Test slučaj ID: TC-002
+Test slučaj ID: TS-002
 Opis: Kao korisnik, očekujem mogućnost pretraživanja sadržaja stranice koristeći ugrađenu tražilicu. 
 Preduvjeti: Korisnik je na naslovnoj stranici. 
 Koraci: 

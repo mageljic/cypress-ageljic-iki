@@ -1,4 +1,4 @@
-describe('Preuzimanje rasporeda sati za za studij informatologije', () => {
+describe('TS-001: Preuzimanje rasporeda sati za za studij informatologije', () => {
 
   it('student pronalazi odsjek i preuzima raspored sati', () => {
 

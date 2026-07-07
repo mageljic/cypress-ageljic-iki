@@ -1,4 +1,4 @@
-describe('Pretraživanje stranice pomoću tražilice', () => {
+describe('TS-002: Pretraživanje stranice pomoću tražilice', () => {
 
   it('student pretražuje stranicu pomoću tražilice', () => {
 
