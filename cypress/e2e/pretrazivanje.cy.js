@@ -14,9 +14,18 @@ describe('Pretraživanje stranice pomoću tražilice', () => {
     .first()
     .type('{enter}')
 
-      cy.contains('upisi 2026')
-    .should('be.visible')
+cy.get('body').then(($body) => {
 
+  if ($body.find('section.no-results').length > 0) {
+    throw new Error('Pretraga nije vratila nijedan rezultat.')
+  }
+
+  cy.get('.alm-results-total_posts')
+    .should(($span) => {
+      expect(parseInt($span.text(), 10)).to.be.greaterThan(0)
+    })
+
+})
     })
 
 })
