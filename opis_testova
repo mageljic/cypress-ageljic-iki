@@ -32,3 +32,14 @@ Koraci:
 3. U polje upisati "Upisi 2026" i kliknuti na ikonu tražilice ili kliknuti Enter na tipkovnici. 
 Očekivani rezultat: Rezultati koji sadrže "Upisi 2026" su prikazani.
 Stvarni rezultat: Test je prošao, rezultati koji sadrže "Upisi 2026" su prikazani. 
+
+Test slučaj ID: TS-003
+Opis: Kao korisnik, očekujem dostupnost informacija o e-mail adresama profesora. 
+Preduvjeti: Korisnik je na naslovnoj stranici. 
+Koraci: 
+1. Otvoriti mrežnu stranicu https://www.ffos.unios.hr/ .
+2. Iz gornjeg izbornika, kliknuti na "Odsjeci i katedre".
+3. Kliknuti na "Odsjek za informacijske znanosti".
+4. Kliknuti na "Nastavnici" iz izbornika s lijeve strane.
+Očekivani rezultat: Svi nastavnici prikazani na popisu imaju navedenu e-mail adresu u odgovarajućem formatu.
+Stvarni rezultat: Test je prošao, uz svakog nastavnika pronađena je i e-mail adresa. 
