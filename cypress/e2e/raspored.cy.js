@@ -24,12 +24,11 @@ describe('Preuzimanje rasporeda sati za za studij informatologije', () => {
     .click()
 
     cy.contains('Informatologija, Nakladništvo i Informacijske tehnologije')
-    .invoke('attr', 'href')
-    .then((href) => {
-    cy.request(href)
-      .its('status')
-      .should('eq', 200)
-  })
+    .should('be.visible')
+    .click()
+
+    cy.readFile('cypress/downloads/Informatologija-Nakladnistvo-i-Informacijske-tehnologije_FINAL.xlsx')
+    .should('exist')
 
   })
 
