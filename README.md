@@ -67,10 +67,44 @@ Svaki sljedeći put dovoljno je:
 
 npx cypress open
 
-**Detaljan opis testova nalazi se u datoteci: test_documentation**
-
 
 ILI
 
 npx cypress run
+
+
+**Mogući problemi prilikom prvog pokretanja:**
+
+
+Ako se prilikom pokretanja projekta pojavi greška:
+
+
+Error: Cannot find module 'cypress'
+
+
+to znači da na računalu nisu instalirane Node.js ovisnosti (node_modules).
+
+Potrebno je u korijenskoj mapi projekta pokrenuti naredbu:
+
+
+npm install
+
+
+Time će se ponovno preuzeti sve potrebne ovisnosti, uključujući Cypress. Nakon završetka instalacije projekt se može normalno pokrenuti naredbom:
+
+
+npx cypress open
+
+
+U slučaju da PowerShell prikaže poruku:
+
+
+npx.ps1 cannot be loaded because it is not digitally signed
+
+
+potrebno je koristiti Command Prompt (cmd) ili privremeno omogućiti izvršavanje skripti u PowerShellu.
+
+
+**Detaljan opis testova nalazi se u datoteci: test_documentation**
+
 
