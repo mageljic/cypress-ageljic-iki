@@ -82,7 +82,7 @@ Ako se prilikom pokretanja projekta pojavi greška:
 Error: Cannot find module 'cypress'
 
 
-to znači da na računalu nisu instalirane Node.js ovisnosti (`node_modules`).
+to znači da na računalu nisu instalirane Node.js ovisnosti (node_modules).
 
 Potrebno je u korijenskoj mapi projekta pokrenuti naredbu:
 
