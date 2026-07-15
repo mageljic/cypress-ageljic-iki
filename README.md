@@ -78,29 +78,29 @@ npx cypress run
 
 Ako se prilikom pokretanja projekta pojavi greška:
 
-```text
+
 Error: Cannot find module 'cypress'
-```
+
 
 to znači da na računalu nisu instalirane Node.js ovisnosti (`node_modules`).
 
 Potrebno je u korijenskoj mapi projekta pokrenuti naredbu:
 
-```bash
+
 npm install
-```
+
 
 Time će se ponovno preuzeti sve potrebne ovisnosti, uključujući Cypress. Nakon završetka instalacije projekt se može normalno pokrenuti naredbom:
 
-```bash
+
 npx cypress open
-```
+
 
 U slučaju da PowerShell prikaže poruku:
 
-```text
+
 npx.ps1 cannot be loaded because it is not digitally signed
-```
+
 
 potrebno je koristiti Command Prompt (cmd) ili privremeno omogućiti izvršavanje skripti u PowerShellu.
 
